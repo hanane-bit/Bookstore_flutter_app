@@ -1,16 +1,23 @@
-# projet_final
+# Bookstore Mobile App
 
-A new Flutter project.
+Cross-platform mobile app for browsing and managing books, built with
+Flutter during a mobile development training (2025). I designed and
+developed the whole app myself, starting from the Flutter project
+template provided in the training.
 
-## Getting Started
+## Features
+- Onboarding screens
+- Sign up / sign in and password recovery
+- [Browse books, add / edit / delete books, user avatars: keep only what is true]
 
-This project is a starting point for a Flutter application.
+## Tech stack
+- Dart, Flutter
+- Supabase (authentication and database) [confirm]
 
-A few resources to get you started if this is your first Flutter project:
+## Run the project
+1. Install Flutter and run `flutter pub get`
+2. Create a file `assets/.env` with your own Supabase credentials:
+   `SUPABASE_URL=...` and `SUPABASE_ANON_KEY=...`
+3. Run `flutter run`
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
